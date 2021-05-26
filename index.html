@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/755b35e26f.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <div id="step">
+            <h4>Step 1 of 3 </h4>
+            <div id="circles">
+                <i class="fas fa-circle circle-black"></i>
+                <i class="fas fa-circle"></i>
+                <i class="fas fa-circle"></i>
+            </div>
+        </div>
+        <div id="left">
+
+
+
+            <div id="inputDiv">
+                <div id="upperText">
+                    <h2>Let's set up your account</h2>
+                    <p>Already have an account?  <a href="#">Sign in</a></p>
+                </div>
+                <form>
+                    <div class="nameDiv">
+                        <input id="inputName" type="text" name="inputName" required />
+                        <label for="inputName"><span>Your name</span></label>
+                    </div>
+
+                    <div class="nameDiv">
+                        <input id="inputMail" type="text" name="inputMail" required />
+                        <label for="inputMail"><span id="mailSpan">Your e-mail</span></label>
+                    </div>
+                    <p id="mailFalse">Please enter a valid email address</p>
+
+                    <div class="select">
+                        <select id="inputOptions" >
+                            <option></option>
+                            <option>Developer</option>
+                            <option>Recruiter</option>
+                        </select>
+                        <label id="selectForm" for="inputOptions"><span>I would describe my user type as</span></label>
+                    </div>
+
+                    <div class="nameDiv">
+                        <input id="inputPass" type="password" name="inputPass" required />
+                        <label for="inputPass"><span>Password</span></label>
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <h6>Minimum 8 characters</h6>
+                    <button type="submit">Next</button>
+                </form>
+                <h5>By clicking the "Next" button, you agree to creating a free account, and to <a>Terms of Service</a> and <a>Privacy Policy.</a></h5>
+            </div>
+        </div>
+
+        <div id="right">
+            <h2>Some headding</h2>
+            <p>Some random words that are used as a placeholder for this showcase test site and are in white color. Some
+                random words that are used as a placeholder.</p>
+
+        </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+
+</html>
